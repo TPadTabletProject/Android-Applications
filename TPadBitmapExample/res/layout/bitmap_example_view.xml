@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.nxr.tpad.bitmapexample.BitmapExampleView
+        android:id="@+id/bitmapView"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp" />
+
+    
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="40dp"
+        android:text="Show"
+        android:layout_gravity="right|top" />
+
+    <Button
+        android:id="@+id/photoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:layout_gravity="left|top" 
+        android:text="Select Picture" />
+    
+</FrameLayout>
