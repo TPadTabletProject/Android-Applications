@@ -43,7 +43,7 @@ public class DemoStart extends Activity implements Runnable {
 	public final static float rampwidth = 80;
 	public float drawery;
 
-	int tpadFreq = 33350;
+	int tpadFreq = 33600;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
